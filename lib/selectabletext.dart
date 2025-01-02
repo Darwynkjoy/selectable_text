@@ -15,7 +15,7 @@ class _SelectabletextState extends State<SelectabletextExample>{
       ),
       body: Column(
         children: [
-          Center(child: Text('''this cannot be selected because its not a SELECTABLETEXT''',style: TextStyle(fontSize: 15),)),
+          Center(child: SelectableText('''this cannot be selected because its not a SELECTABLETEXT''',style: TextStyle(fontSize: 15),)),
           Center(child: Text('''this can be selected because its  a SELECTABLETEXT''',style: TextStyle(fontSize: 15),)),
         ],
       ),
